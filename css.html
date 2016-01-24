@@ -1,0 +1,80 @@
+<html>
+    <head>
+      <meta name="viewport" content="minimum-scale=1, width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" media="only screen and (color)" href="example.css">  -->    
+	   <style>
+            body {
+                height: 100%;
+                margin: 0;
+            }
+             @media screen and (max-width : 500px)   {
+
+			   .sidebar {
+				  display: none;
+			   }
+			   
+			   .content {
+				  width: 100%;
+			   }
+			   
+			   .header {
+				  width: 500px;
+			   }
+
+			}
+			
+			.container {
+                width: 95%;
+                background-color: #bdc3c7;
+                margin: auto;
+            }
+
+            .header {
+                height: 50px;
+                background-color: #e74c3c;
+                margin-bottom: 15px;
+            }
+
+            .content {
+                width: 75%;
+                float: left;
+                background-color: #2ecc71;
+                height: 725px;
+                
+            }
+
+            .sidebar {
+                width: 20%;
+                float: left;
+                background-color: #3498db;
+                height: 725px;
+                margin-left: 5%;
+                /*display: none;*/ /*Uncomment to remove*/
+            }
+
+            .footer {
+                background-color: #f1c40f;
+                margin-top: 15px;
+                height: 50px;
+                clear: both;
+            }
+       
+		</style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>.header</h1>
+            </div>
+            <div class="content">
+                <h1>.content</h1>
+            </div>
+            <div class="sidebar">
+                <h1>.sidebar</h1>
+            </div>
+            <div class="footer">
+                <h1>.footer</h1>
+            </div>
+        </div>
+    </body>
+</html>
